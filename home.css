@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(215, 199, 228);
+}
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+.form-group select,
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form-group .radio-group {
+    display: flex;
+}
+.radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+}
+.form-group .checkbox-group {
+    display: flex;
+}
+.form-group .checkbox-group label {
+    margin-right: 20px;
+}
+
+.form-group .btn-add {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling for "Cancel" button */
+.form-group .btn-cancel {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
